@@ -1,0 +1,52 @@
+body,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./img/background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(5, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.table-body {
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.primary-button {
+  background-color: rgb(74, 198, 68);
+}
+
+.primary-button {
+  font-weight: bold;
+  color: black;
+  width: 100%;
+}
+.day {
+  padding-right: 10px;
+}
+.second-button {
+  font-weight: bold;
+  color: black;
+  width: 100%;
+}
+.third-button {
+  background-color: brown;
+  width: 100%;
+}
